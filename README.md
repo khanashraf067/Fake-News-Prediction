@@ -8,7 +8,7 @@
 7)  Data Preproccessing :- In  Data Preproccessing we read the data with the help of Pandas , check the heading and top 5 rows of data set, check the null values,                                  replace the null cell with empty string.
 8)  Merge the features: We will merge the two column 'title' and 'author' and make new column 'content'.
 9)  Stemming:- Stemming is the proccess of reducing a word to it's root word. Example : actor,actress,acting all three will conver into act.
-10)  Make a User Defined Function on line number 13 :                                                                                                                               line no. 1       def stemming(content):
+10)  Make a User Defined Function on line number 13 :                                                                                                                             line no. 1       def stemming(content):
           line no. 2           stemmed_content = re.sub('[^a-zA-Z]',' ',content)
           line no. 3           stemmed_content = stemmed_content.lower()
           line no. 4           stemmed_content = stemmed_content.split()
